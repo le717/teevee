@@ -1,0 +1,38 @@
+{
+  "name": "teevee",
+  "version": "1.0.0",
+  "description": "Welcome to Alpha Team Headquarters!",
+  "main": "index.html",
+  "scripts": {
+    "test": "grunt lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/le717/teevee.git"
+  },
+  "author": "Triangle717",
+  "licenses": [
+    {
+      "type": "The MIT License",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "homepage": "http://le717.github.io/teevee",
+  "bugs": {
+    "url": "https://github.com/le717/teevee/issues"
+  },
+  "dependencies": {
+    "jquery.runner": "^2.3.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.3",
+    "matchdep": "^0.3.0",
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-cssmin": "^0.9.0",
+    "grunt-contrib-csslint": "^0.2.0",
+    "grunt-htmlhint": "^0.4.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-dev-update": "^0.5.5"
+  }
+}

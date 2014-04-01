@@ -84,7 +84,7 @@ module.exports = function(grunt) {
       },
       my_target: {
         files: {
-          "js/TEEVEEHERE.min.js": "index.js",
+          "js/TEEVEEHERE.min.js": "js/index.js",
         }
       }
     }

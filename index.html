@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="title" content="TEE VEE HERE">
+  <meta name="description" content="Welcome to Alpha Team Headquarters! Welcome to Alpha Te- Welcome to Alpha Te- Welcome to Alpha Te- Welcome to Alpha Te- Welcome to Alpha Team Headquarters!">
+  <meta name="keywords" content="Triangle717, le717, LEGO Alpha Team, Alpha Team, Rock Raiders United, TEE VEE HERE">
+  <meta name="robots" content="index, nofollow">
+
+  <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Audiowide">
+
+  <!--
+    Created 2014 Triangle717
+    <http://Triangle717.WordPress.com/>
+
+    Source code licensed under The MIT License
+    <http://opensource.org/licenses/MIT/>
+
+    Dedicated to the good folks at Rock Raiders United
+    <http://www.rockraidersunited.org/>
+  -->
+
+  <title>TEE VEE HERE</title>
+  <style>
+    /* Background and text styles */
+    html { min-width: 320px; }
+
+    body {
+      background-color: #0b1919;
+      font-family: "Audiowide", "Arial", sans-serif;
+      color: white;
+      font-weight: 700;
+      text-shadow: 1px 1px 2px black;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Link styling */
+    a {
+      color: #fcf54a;
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+
+    /* Background image trick from
+     * http://css-tricks.com/perfect-full-page-background-image/
+     */
+    .bg-image {
+      min-height: 100%;
+      min-width: 1024px;
+      width: 100%;
+      height: auto;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -2;
+    }
+
+    @media screen and (max-width: 1024px) {
+      .bg-image {
+        left: 50%;
+        margin-left: -512px;
+      }
+    }
+
+    /* Center text */
+    h1, p, #tagline, #footer { text-align: center; }
+    h1, #tagline { margin-bottom: -5px; }
+
+    /* 3D text by @mdo
+     * http://markdotto.com/playground/3d-text/
+     */
+    h1 {
+      text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #c9c9c9,
+                   0 3px 0 #bbb,
+                   0 4px 0 #b9b9b9,
+                   0 5px 0 #aaa,
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);
+    }
+
+    #timer {
+      text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #c9c9c9,
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);
+    }
+  </style>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <img class="bg-image" width="3000" height="2021" src="img/Electronics0036_L.jpg" />
+  <h1>TEE VEE HERE</h1>
+  <p id="tagline">Welcome to Headquarters!</p>
+
+  <img id="teevee" width="512" height="512" src="img/teevee.png" />
+
+  <div id="footer">
+    2014 <a target="_blank" href="http://Triangle717.WordPress.com/">Triangle717</a><br>
+    <a target="_blank" href="http://en.brickimedia.org/wiki/Tee_Vee">Tee Vee</a> render by
+    <a target="_blank" href="http://rioforce.wordpress.com">rioforce</a><br>
+    <p id="timer-para">
+      You have withstood Tee Vee glitching out for<br><span id="timer-wrapper"><span id="timer"></span></span>
+    </p>
+  </div>
+
+  <!-- jQuery -->
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+  <!--
+    runner: jQuery plugin
+    https://github.com/jylauril/jquery-runner/
+  -->
+  <script src="js/jquery.runner-min.js"></script>
+
+  <!--
+    SeamlessLoop 2.0 for JavaScript
+    https://github.com/Hivenfour/SeamlessLoop/
+  -->
+  <script src="js/SeamlessLoop.js"></script>
+  <script src="js/TEEVEEHERE.min.js"></script>
+</body>
+</html>
