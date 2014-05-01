@@ -24,4 +24,4 @@ I've used some very helpful third-party libraries in writing this. I recommend l
 * Source code 2014 [Triangle717](http://Triangle717.WordPress.com/), licensed under [The MIT License](LICENSE.md)
 * Audio clip :copyright: 2000 Digital Domain &amp; [The LEGO Group](http://www.lego.com/)
 * Background image from [CGTextures](http://cgtextures.com/)
-* Tee Vee render by [rioforce](http://rioforce.wordpress.com)
+* Tee Vee render by [rioforce](http://rioforce.wordpress.com) using the [LDraw System of Tools](http://ldraw.org) and [Blender](http://blender.org)
